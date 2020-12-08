@@ -1,0 +1,17 @@
+<div>
+  <br>
+  <nav>
+    <a routerLink="/home"> Главная </a>
+    <a routerLink="/post"> Посты </a>
+  </nav>
+  <profile></profile>
+  <div id="posts">
+    <li *ngFor="let post of posts">
+      <p>{{post.name}}</p>
+    </li>
+  </div>
+</div>
+<!--<ul>
+  <li><h2 routerLink="/" routerLinkActive="active">Стартовая</h2></li>
+  <li><h2 routerLink="/home" routerLinkActive="active">Главная</h2></li></li>
+</ul>-->

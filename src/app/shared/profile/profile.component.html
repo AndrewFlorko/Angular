@@ -1,0 +1,10 @@
+<div *ngIf="isLoggedIn">
+  <a>Здравствуйте, {{user.name}}!</a>
+  <br>
+  <a routerLink="/user">Перейти к аккаунту</a>
+  <br>
+  <button (click)="logout()">Выйти из аккаунта</button>
+</div>
+<div *ngIf="!isLoggedIn">
+  <a routerLink="/login">Авторизация</a>
+</div>

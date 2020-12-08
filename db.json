@@ -1,0 +1,22 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "email": "admin@qwe.tu",
+      "password": "123456789",
+      "name": "Администратор"
+    },
+    {
+      "email": "123@mail.ru",
+      "password": "123456",
+      "name": "ИМЯ",
+      "id": 2
+    },
+    {
+      "email": "mixayumatov@gmail.com",
+      "password": "255325354353",
+      "name": "59225922",
+      "id": 3
+    }
+  ]
+}

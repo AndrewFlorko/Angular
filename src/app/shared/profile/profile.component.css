@@ -1,0 +1,10 @@
+div{
+  padding: 10px;
+  background-color: bisque;
+  min-height: 100px;
+  height: 120px;
+  min-width: 300px;
+  width: 320px;
+  margin-left: 10px;
+  outline: 2px solid #000;
+}
